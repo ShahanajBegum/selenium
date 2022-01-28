@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="11" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="121650" started-at="2022-01-28T16:03:37 IST" finished-at="2022-01-28T16:05:38 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="121650" started-at="2022-01-28T16:03:37 IST" finished-at="2022-01-28T16:05:38 IST">
+      <class name="test_cases.Test4_SearchProduct_Tc">
+        <test-method status="PASS" signature="Tc01()[pri:0, instance:test_cases.Test4_SearchProduct_Tc@10bbd20a]" name="Tc01" duration-ms="9427" started-at="2022-01-28T16:04:18 IST" finished-at="2022-01-28T16:04:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc01 -->
+      </class> <!-- test_cases.Test4_SearchProduct_Tc -->
+      <class name="test_cases.Test6_RemoveCart_Tc">
+        <test-method status="PASS" signature="removeCard(java.lang.String,java.lang.String)[pri:0, instance:test_cases.Test6_RemoveCart_Tc@184f6be2]" name="removeCard" duration-ms="11696" started-at="2022-01-28T16:04:46 IST" data-provider="TestData" finished-at="2022-01-28T16:04:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shashushaik97@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CIVIL@109]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeCard -->
+      </class> <!-- test_cases.Test6_RemoveCart_Tc -->
+      <class name="test_cases.Test1_Register_Tc">
+        <test-method status="PASS" signature="Demo(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test_cases.Test1_Register_Tc@694e1548]" name="Demo" duration-ms="12271" started-at="2022-01-28T16:03:37 IST" data-provider="TestData" finished-at="2022-01-28T16:03:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shahanaj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shashushaik97@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CIVIL@109]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Civil@109]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+      </class> <!-- test_cases.Test1_Register_Tc -->
+      <class name="test_cases.Test2_Login_Tc">
+        <test-method status="PASS" signature="Tc01(java.lang.String,java.lang.String)[pri:0, instance:test_cases.Test2_Login_Tc@4e7dc304]" name="Tc01" duration-ms="23025" started-at="2022-01-28T16:03:49 IST" data-provider="TestData" finished-at="2022-01-28T16:04:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shashushaik97@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CIVIL@109]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc01 -->
+      </class> <!-- test_cases.Test2_Login_Tc -->
+      <class name="test_cases.Test8_RemoveWhishlist_Tc">
+        <test-method status="PASS" signature="removeWhislist(java.lang.String,java.lang.String)[pri:0, instance:test_cases.Test8_RemoveWhishlist_Tc@1f7030a6]" name="removeWhislist" duration-ms="8165" started-at="2022-01-28T16:05:30 IST" data-provider="TestData" finished-at="2022-01-28T16:05:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shashushaik97@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CIVIL@109]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeWhislist -->
+      </class> <!-- test_cases.Test8_RemoveWhishlist_Tc -->
+      <class name="test_cases.Test3_Search_Tc">
+        <test-method status="PASS" signature="Tc01()[pri:0, instance:test_cases.Test3_Search_Tc@64729b1e]" name="Tc01" duration-ms="5931" started-at="2022-01-28T16:04:12 IST" finished-at="2022-01-28T16:04:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc01 -->
+      </class> <!-- test_cases.Test3_Search_Tc -->
+      <class name="test_cases.Test5_addCart_Tc">
+        <test-method status="PASS" signature="addCardInclude(java.lang.String,java.lang.String)[pri:0, instance:test_cases.Test5_addCart_Tc@48503868]" name="addCardInclude" duration-ms="17991" started-at="2022-01-28T16:04:28 IST" data-provider="TestData" finished-at="2022-01-28T16:04:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shashushaik97@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CIVIL@109]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCardInclude -->
+      </class> <!-- test_cases.Test5_addCart_Tc -->
+      <class name="test_cases.Test7_AddWhishlist_Tc">
+        <test-method status="PASS" signature="addCard(java.lang.String,java.lang.String)[pri:0, instance:test_cases.Test7_AddWhishlist_Tc@56aac163]" name="addCard" duration-ms="16794" started-at="2022-01-28T16:04:57 IST" data-provider="TestData" finished-at="2022-01-28T16:05:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shashushaik97@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CIVIL@109]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCard -->
+        <test-method status="PASS" signature="addCardexclude(java.lang.String,java.lang.String)[pri:0, instance:test_cases.Test7_AddWhishlist_Tc@56aac163]" name="addCardexclude" duration-ms="16287" started-at="2022-01-28T16:05:14 IST" data-provider="TestData" finished-at="2022-01-28T16:05:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shashushaik97@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CIVIL@109]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCardexclude -->
+      </class> <!-- test_cases.Test7_AddWhishlist_Tc -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

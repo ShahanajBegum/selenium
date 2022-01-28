@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="test_cases.Test1_Register_Tc"/>
+      <class name="test_cases.Test2_Login_Tc"/>
+      <class name="test_cases.Test3_Search_Tc"/>
+      <class name="test_cases.Test4_SearchProduct_Tc"/>
+      <class name="test_cases.Test5_addCart_Tc">
+<methods>
+<exclude name="addCardExclude"></exclude>
+<include name="addCardInclude"></include>
+</methods>
+      </class>
+      <class name="test_cases.Test6_RemoveCart_Tc"/>
+      <class name="test_cases.Test7_AddWhishlist_Tc"/>
+      <class name="test_cases.Test8_RemoveWhishlist_Tc"/>
+
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
